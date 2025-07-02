@@ -1,11 +1,14 @@
 import "./App.css";
-import { OTPInput } from "./components/OTPInput";
+import { AccordianContainer } from "./components/Accordian/AccordianContainer";
+import { accordionData } from "./components/Accordian/data";
+//import { OTPInput } from "./components/OTPInput";
 
 const App = () => {
   return (
     <>
       <div>
-        <OTPInput />
+        {/* <OTPInput /> */}
+        <AccordianContainer data={accordionData} />
       </div>
     </>
   );
