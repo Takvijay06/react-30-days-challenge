@@ -1,6 +1,7 @@
 import "./App.css";
-import { AccordianContainer } from "./components/Accordian/AccordianContainer";
-import { accordionData } from "./components/Accordian/data";
+import { Modal } from "./components/Modal";
+// import { AccordianContainer } from "./components/Accordian/AccordianContainer";
+// import { accordionData } from "./components/Accordian/data";
 //import { OTPInput } from "./components/OTPInput";
 
 const App = () => {
@@ -8,7 +9,8 @@ const App = () => {
     <>
       <div>
         {/* <OTPInput /> */}
-        <AccordianContainer data={accordionData} />
+        {/* <AccordianContainer data={accordionData} /> */}
+        <Modal />
       </div>
     </>
   );
